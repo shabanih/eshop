@@ -4,25 +4,120 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bb1ac78-0676-4bac-bcfc-6489e331d198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/eshop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eshop/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eshop/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eshop/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eshop/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eshop/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    <list default="true" id="2bb1ac78-0676-4bac-bcfc-6489e331d198" name="Changes" comment="hi">
+      <change afterPath="$PROJECT_DIR$/contact_module/templates/contact_module/contact_us_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact_module/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_module/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_module/templates/index_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_module/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_module/templates/product_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_module/templates/product_item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_module/templates/product_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_module/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/prettyPhoto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/price-range.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/BYekan.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/BYekan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/BYekan.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/BYekan.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/404/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/blog/Customer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/blog/blog-one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/blog/blog-one.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/blog/socials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/cart/Card.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/cart/one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/cart/three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/cart/two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/About-Logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/Gallery.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/Gallery.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/Map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/Slider-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/Slider.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/Tabs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/Tabs.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/bg_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/girl2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/partner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/partner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/partner3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/partner4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/pricing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/product.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/product1.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/recommend1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/recommend2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/recommend3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/sale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/searchicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/home/shipping.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/Bale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/Instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/Main.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/Similar.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/Socials.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/Soroush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/Telegram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/new.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/rating.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/similar1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/similar2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/product-details/similar3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/shop/advertisement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/shop/product.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.prettyPhoto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.scrollUp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/price-range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shared/_layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shared/footer_references.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shared/header_references.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shared/site_footer_component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shared/site_header_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,10 +134,15 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.eshop.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hshabani/PycharmProjects/eshop/static/images/home&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -51,6 +151,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images/home" />
+      <recent name="$PROJECT_DIR$/templates/shared" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="eshop" type="Python.DjangoServer" factoryName="Django server">
       <module name="eshop" />
@@ -59,6 +166,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="eshop.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -95,10 +203,40 @@
       <workItem from="1703700679626" duration="63000" />
       <workItem from="1703700800876" duration="4412000" />
       <workItem from="1703757664912" duration="1438000" />
+      <workItem from="1703768244865" duration="2401000" />
+      <workItem from="1703770828314" duration="1524000" />
+      <workItem from="1703774181693" duration="2102000" />
+      <workItem from="1703786700146" duration="3489000" />
+      <workItem from="1703855418943" duration="2945000" />
+      <workItem from="1703864965199" duration="4678000" />
+      <workItem from="1703953318638" duration="2586000" />
+      <workItem from="1703963855405" duration="2500000" />
+      <workItem from="1704035391165" duration="5388000" />
+      <workItem from="1704043895545" duration="3021000" />
+      <workItem from="1704048382161" duration="1285000" />
+      <workItem from="1704126927056" duration="3474000" />
+      <workItem from="1704134043644" duration="81000" />
+      <workItem from="1704134231858" duration="1212000" />
+      <workItem from="1704209653649" duration="3667000" />
+      <workItem from="1704214003740" duration="1681000" />
+      <workItem from="1704218979170" duration="3243000" />
     </task>
+    <task id="LOCAL-00001" summary="hi">
+      <option name="closed" value="true" />
+      <created>1703769037222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703769037222</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hi" />
+    <option name="LAST_COMMIT_MESSAGE" value="hi" />
   </component>
 </project>
