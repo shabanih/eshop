@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="PY-233.11799.298">
-    <data-source name="db.sqlite3" uuid="0c3573c4-2975-4207-8040-f60743485ea3">
+    <data-source name="Django default" uuid="05473396-09db-4d0a-9e79-f8927212dbb7">
       <database-info product="SQLite" version="3.43.0" jdbc-version="4.2" driver-name="SQLite JDBC" driver-version="3.43.0.0" dbms="SQLITE" exact-version="3.43.0" exact-driver-version="3.43">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <secret-storage>master_key</secret-storage>
       <auth-provider>no-auth</auth-provider>
       <schema-mapping>
         <introspection-scope>
@@ -14,11 +13,12 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="Django default" uuid="05473396-09db-4d0a-9e79-f8927212dbb7">
+    <data-source name="db.sqlite3" uuid="af146644-12ff-47eb-b7d5-cfe033e32f6d">
       <database-info product="SQLite" version="3.43.0" jdbc-version="4.2" driver-name="SQLite JDBC" driver-version="3.43.0.0" dbms="SQLITE" exact-version="3.43.0" exact-driver-version="3.43">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
       <auth-provider>no-auth</auth-provider>
       <schema-mapping>
         <introspection-scope>

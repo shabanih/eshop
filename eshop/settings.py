@@ -37,10 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Internal Module
     'home_module',
     'product_module',
     'contact_module',
-    'django_render_partial'
+    'account_module',
+    'site_module',
+    # External Module
+    'django_render_partial',
+
 ]
 
 MIDDLEWARE = [
@@ -77,6 +82,8 @@ WSGI_APPLICATION = 'eshop.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
+
+AUTH_USER_MODEL = 'account_module.User'
 
 DATABASES = {
     'default': {
@@ -120,7 +127,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+
+MEDIA_ROOT = BASE_DIR / 'uploads'
+MEDIA_URL = '/media/'
 
 STATICFILES_DIRS = [
     BASE_DIR / 'static'
@@ -130,3 +140,10 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'h1.shabani1983@gmail.com'
+EMAIL_HOST_PASSWORD = 'nsch rcxf sptr kbyh'
+EMAIL_PORT = 587
