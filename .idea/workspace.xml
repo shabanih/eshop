@@ -4,40 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bb1ac78-0676-4bac-bcfc-6489e331d198" name="Changes" comment="update 1402/10/11-django forms">
-      <change afterPath="$PROJECT_DIR$/account_module/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account_module/templates/account_module/forgot_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account_module/templates/account_module/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account_module/templates/account_module/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account_module/templates/account_module/reset_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account_module/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_module/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_module/templates/about_us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/emails/active_account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/emails/forgot_pass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/email_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c3573c4-2975-4207-8040-f60743485ea3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c3573c4-2975-4207-8040-f60743485ea3/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+    <list default="true" id="2bb1ac78-0676-4bac-bcfc-6489e331d198" name="Changes" comment="update 1402/10/24">
+      <change afterPath="$PROJECT_DIR$/article_module/templates/article_module/articel_module.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article_module/templates/article_module/article_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article_module/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/templatetags/poll_extras.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af146644-12ff-47eb-b7d5-cfe033e32f6d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/af146644-12ff-47eb-b7d5-cfe033e32f6d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_module/templates/contact_module/contact_us_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact_module/templates/contact_module/contact_us_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_module/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact_module/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_module/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact_module/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_module/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/account_module/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_module/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/account_module/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home_module/templates/index_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home_module/templates/index_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home_module/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_module/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home_module/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_module/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_module/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product_module/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_module/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_module/templates/product_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_module/templates/product_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_module/templates/product_item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_module/templates/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_module/templates/product_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_module/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product_module/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_module/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product_module/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/shared/site_footer_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shared/site_footer_component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/shared/site_header_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shared/site_header_component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +165,14 @@
       <workItem from="1705166575289" duration="4828000" />
       <workItem from="1705172732119" duration="2118000" />
       <workItem from="1705256097691" duration="3612000" />
-      <workItem from="1705260353258" duration="819000" />
+      <workItem from="1705260353258" duration="880000" />
+      <workItem from="1705331512642" duration="5170000" />
+      <workItem from="1705345179397" duration="1138000" />
+      <workItem from="1705418541968" duration="3839000" />
+      <workItem from="1705431368516" duration="1098000" />
+      <workItem from="1705565586560" duration="5816000" />
+      <workItem from="1705598757203" duration="4528000" />
+      <workItem from="1705606634397" duration="1386000" />
     </task>
     <task id="LOCAL-00001" summary="hi">
       <option name="closed" value="true" />
@@ -210,7 +198,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704222571146</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update 1402/10/24">
+      <option name="closed" value="true" />
+      <created>1705261210473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705261210473</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update 1402/10/24">
+      <option name="closed" value="true" />
+      <created>1705261223193</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705261223193</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +223,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hi" />
     <MESSAGE value="update 1402/10/11-django forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 1402/10/11-django forms" />
+    <MESSAGE value="update 1402/10/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 1402/10/24" />
   </component>
 </project>

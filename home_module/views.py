@@ -4,13 +4,6 @@ from django.views.generic import TemplateView
 from site_module.models import SiteSetting, FooterLinkBox, Slider
 
 
-# Create your views here.
-
-
-# def index_page(request):
-#     return render(request, 'index_page.html')
-
-
 class HomeView(TemplateView):
     template_name = 'index_page.html'
 
