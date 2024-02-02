@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'account_module',
     'site_module',
     'article_module',
+    'user_panel_module',
     'polls',
     # External Module
     'django_render_partial',
