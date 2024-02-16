@@ -24,3 +24,31 @@ function fillParentId(parentId){
     document.getElementById('comment_form').scrollIntoView({behavior:"smooth"});
 }
 
+
+function filterProducts(){
+    debugger;
+    const filterPrice = $('#sl2').val();
+    const start_price = filterPrice.split(',')[0];
+    const end_price = filterPrice.split(',')[1];
+    $('#start_price').val(start_price);
+    $('#end_price').val(end_price);
+    $('#filter_form').submit();
+}
+
+function fillPage(page){
+    $('#page').val(page);
+    $('#filter_form').submit();
+}
+
+
+function showLargeImage(imageSrc){
+    $('#main_image').attr('src', imageSrc);
+    $('#show_large_image_modal').attr('href', imageSrc);
+}
+
+function addProductToOrder(productId){
+    const productCount = $('#product_count').val()
+    $.get('/order/add-to-order?product_id=' + productId + '&count=' + productCount).then(res=>{
+        console.log(res);
+    })
+}
