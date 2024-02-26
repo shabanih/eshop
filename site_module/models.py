@@ -10,7 +10,7 @@ class SiteSetting(models.Model):
     email = models.CharField(max_length=200, null=True, blank=True, verbose_name='ایمیل ')
     copy_right = models.TextField(verbose_name='متن کپی رایت سایت')
     about_us_text = models.TextField(verbose_name='متن درباره ما سایت')
-    site_logo = models.ImageField(upload_to='images/site-setting/', verbose_name='لوگو سایت')
+    site_logo = models.ImageField(upload_to='images/site-setting', verbose_name='لوگو سایت')
     is_main_setting = models.BooleanField(verbose_name='تنظیمات اصلی سایت')
 
     def __str__(self):

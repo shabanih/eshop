@@ -47,10 +47,13 @@ INSTALLED_APPS = [
     'user_panel_module',
     'order_module',
     'polls',
+    'admin_panel',
     # External Module
     'django_render_partial',
     'sorl.thumbnail',
     'jalali_date',
+    'widget_tweaks',
+
 
 
 ]
@@ -62,6 +65,7 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
@@ -91,6 +95,7 @@ WSGI_APPLICATION = 'eshop.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 AUTH_USER_MODEL = 'account_module.User'
+LOGIN_URL = '/login'
 
 DATABASES = {
     'default': {
@@ -131,6 +136,8 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+
 
 
 # Static files (CSS, JavaScript, Images)
@@ -183,3 +190,7 @@ JALALI_DATE_DEFAULTS = {
         }
     },
 }
+
+
+SANDBOX = True
+# MERCHANT = "00000000-0000-0000-0000-000000000000"

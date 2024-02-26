@@ -18,3 +18,8 @@ def show_jalali_date(value):
 @register.filter(name='three_digit_currency')
 def three_digit_currency(value: int):
     return '{:,}'.format(value) + ' ' + 'تومان'
+
+
+@register.simple_tag
+def multiply(quantity, price, *arg, **kwargs):
+    return three_digit_currency(quantity * price)
